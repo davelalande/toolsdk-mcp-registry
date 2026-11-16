@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "packageName": "@toolsdk-remote/american-adventurer-camps",
+  "name": "American Adventurer Camps: National Forest & BLM Camping",
+  "description": "National forest and BLM camping records for AI agents. Find free and dispersed camps on US public land, read one camp's full record, plan a four-night trip, check gas and water, get the National Weather Service forecast, and ask whose land a point is (national forests). Every answer gives the record's link, its source and the date the data was built. Read-only, no sign-in, no key.",
+  "url": "https://davelalande.com/ai?via=dir-toolsdk",
+  "readme": "https://davelalande.com/ai?via=dir-toolsdk",
+  "runtime": "node",
+  "env": {},
+  "author": "Dave Lalande",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://davelalande.com/mcp"
+    }
+  ]
+}
